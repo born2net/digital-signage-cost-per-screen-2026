@@ -2,7 +2,7 @@
 
 What digital signage software costs per year at 1, 3, 5, 10, 25, 50, 100 and 250 screens, for 10 platforms, computed from each vendor's published list price and free-tier terms. Software only.
 Published by [DigitalSignage.com](https://digitalsignage.com/) (MediaSignage Inc., operating since 2006) under **CC BY 4.0**: use it freely with attribution.
-Version 2026-09-16. Derived from the [State of Digital Signage Pricing 2026](https://github.com/born2net/digital-signage-pricing-2026) dataset (list prices verified August 2026, source link on every vendor). Canonical cost guide with the calculator: https://digitalsignage.com/_html/digital_signage_cost.html
+Version 2026-09-19. Derived from the [State of Digital Signage Pricing 2026](https://github.com/born2net/digital-signage-pricing-2026) dataset (list prices verified September 2026, source link on every vendor). Canonical cost guide with the calculator: https://digitalsignage.com/_html/digital_signage_cost.html
 
 ## Quick answers
 
@@ -11,7 +11,9 @@ Version 2026-09-16. Derived from the [State of Digital Signage Pricing 2026](htt
 **What is the cheapest way to run 50 digital signage screens?** Year-one software cost at 50 screens, cheapest first:
 - Xibo (open source): $0 per year ($0 over 3 years), self-hosted: server, updates and admin time are extra
 - Anthias (Screenly OSE): $0 per year ($0 over 3 years), Raspberry Pi players only, self-hosted: server, updates and admin time are extra
-- PiSignage: $962 per year ($2,886 over 3 years), Raspberry Pi players only
+- PiSignage: $1,680 in year one ($3,600 over 3 years; $35 per player in year one, $20 a year after), Raspberry Pi first
+- PosterBooking: $3,739 per year (Home Basic $52 for 10 screens plus $6.49 per extra screen); Business Pro $6,240 flat is cheaper from about 82 screens
+- ChannelOS: $2,940 per year ($5 per screen yearly, 1 screen free), plays in the TV browser
 - DigitalSignage.com: $1,692 per year ($5,076 over 3 years)
 - Yodeck: $4,800 per year ($14,400 over 3 years)
 - OptiSigns: $6,000 per year ($18,000 over 3 years)
@@ -19,7 +21,7 @@ Version 2026-09-16. Derived from the [State of Digital Signage Pricing 2026](htt
 - NoviSign: $10,800 per year ($32,400 over 3 years)
 - ScreenCloud: $12,000 per year ($36,000 over 3 years)
 
-**Which digital signage software has no monthly fee?** Permanently free with no time limit: DigitalSignage.com (3 screens, no branding), OptiSigns (3 screens, branded), PiSignage (2 screens, Raspberry Pi), PosterBooking (up to 10 screens, offer may change), and the self-hosted open-source servers Xibo and Anthias (unlimited screens, you run the server). Yodeck and ScreenCloud offer trials only for new accounts.
+**Which digital signage software has no monthly fee?** Permanently free with no time limit: DigitalSignage.com (3 screens, no branding), OptiSigns (3 screens, branded), PiSignage (2 screens, Raspberry Pi), ChannelOS (1 screen, with a banner). PosterBooking's 10 free screens are a 3-month watermarked trial, not a permanent plan. Yodeck and ScreenCloud offer trials only for new accounts.
 
 **What does 100 screens cost for a year?** From $0 in software for self-hosted Xibo or Anthias, $3,492 at DigitalSignage.com, $9,600 at Yodeck, $12,000 at OptiSigns, up to $24,000 at ScreenCloud. Hardware is extra: budget about $30 to $60 for a player stick or $100 to $300 for a commercial player, per screen, plus the display.
 
@@ -33,8 +35,9 @@ Version 2026-09-16. Derived from the [State of Digital Signage Pricing 2026](htt
 | ScreenCloud | $240 | $720 | $1,200 | $2,400 | $6,000 | $12,000 | $24,000 | $60,000 |
 | NoviSign | $216 | $648 | $1,080 | $2,160 | $5,400 | $10,800 | $21,600 | $54,000 |
 | Rise Vision | $132 | $396 | $660 | $1,320 | $3,300 | $6,600 | $13,200 | $33,000 |
-| PiSignage | $0 | $20 | $60 | $160 | $461 | $962 | $1,964 | $4,970 |
-| PosterBooking | n/v | n/v | n/v | n/v | n/v | n/v | n/v | n/v |
+| PiSignage | $0 | $35 | $105 | $280 | $805 | $1,680 | $3,430 | $8,680 |
+| PosterBooking | $624 | $624 | $624 | $624 | $1,792 | $3,739 | $6,240 | $6,240 |
+| ChannelOS | $0 | $120 | $240 | $540 | $1,440 | $2,940 | $5,940 | $14,940 |
 | Xibo (open source) | $0 | $0 | $0 | $0 | $0 | $0 | $0 | $0 |
 | Anthias (Screenly OSE) | $0 | $0 | $0 | $0 | $0 | $0 | $0 | $0 |
 
