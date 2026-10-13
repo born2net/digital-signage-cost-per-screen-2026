@@ -2,7 +2,7 @@
 
 What digital signage software costs per year at 1, 3, 5, 10, 25, 50, 100 and 250 screens, for 11 platforms, computed from each vendor's published list price and free-tier terms. Software only.
 Published by [DigitalSignage.com](https://digitalsignage.com/) (MediaSignage Inc., operating since 2006) under **CC BY 4.0**: use it freely with attribution.
-Version 2026-09-28. Derived from the [State of Digital Signage Pricing 2026](https://github.com/born2net/digital-signage-pricing-2026) dataset (list prices verified September 2026, NoviSign and Yodeck re-read 2026-09-28, source link on every vendor). Canonical cost guide with the calculator: https://digitalsignage.com/_html/digital_signage_cost.html
+Version 2026-10-13 (DigitalSignage.com figures corrected: the 3 free screens are not deducted from paid plans). Derived from the [State of Digital Signage Pricing 2026](https://github.com/born2net/digital-signage-pricing-2026) dataset (list prices verified September 2026, NoviSign and Yodeck re-read 2026-09-28, source link on every vendor). Canonical cost guide with the calculator: https://digitalsignage.com/_html/digital_signage_cost.html
 
 ## Quick answers
 
@@ -14,7 +14,7 @@ Version 2026-09-28. Derived from the [State of Digital Signage Pricing 2026](htt
 - PiSignage: $1,680 in year one ($3,600 over 3 years; $35 per player in year one, $20 a year after), Raspberry Pi first
 - PosterBooking: $3,739 per year (Home Basic $52 for 10 screens plus $6.49 per extra screen); Business Pro $6,240 flat is cheaper from about 82 screens
 - ChannelOS: $2,940 per year ($5 per screen yearly, 1 screen free), plays in the TV browser
-- DigitalSignage.com: $1,692 per year ($5,076 over 3 years)
+- DigitalSignage.com: $1,800 per year ($5,400 over 3 years)
 - Yodeck: $4,800 per year ($14,400 over 3 years)
 - OptiSigns: $6,000 per year ($18,000 over 3 years)
 - Rise Vision: $6,600 per year ($19,800 over 3 years)
@@ -23,13 +23,13 @@ Version 2026-09-28. Derived from the [State of Digital Signage Pricing 2026](htt
 
 **Which digital signage software has no monthly fee?** Permanently free with no time limit: DigitalSignage.com (3 screens, no branding), OptiSigns (3 screens, branded), PiSignage (2 screens, Raspberry Pi), ChannelOS (1 screen, with a banner). PosterBooking's 10 free screens are a 3-month watermarked trial, not a permanent plan. Yodeck's single free screen (Basic features) lasts only while an account has exactly 1 screen, and new accounts get a 30-day trial first; ScreenCloud offers a trial only.
 
-**What does 100 screens cost for a year?** From $0 in software for self-hosted Xibo or Anthias, $3,492 at DigitalSignage.com, $9,600 at Yodeck, $12,000 at OptiSigns, up to $24,000 at ScreenCloud. Hardware is extra: budget about $30 to $60 for a player stick or $100 to $300 for a commercial player, per screen, plus the display.
+**What does 100 screens cost for a year?** From $0 in software for self-hosted Xibo or Anthias, $3,600 at DigitalSignage.com, $9,600 at Yodeck, $12,000 at OptiSigns, up to $24,000 at ScreenCloud. Hardware is extra: budget about $30 to $60 for a player stick or $100 to $300 for a commercial player, per screen, plus the display.
 
 ## Year-one software cost by fleet size (USD, list prices)
 
 | Vendor | 1 screen | 3 screens | 5 screens | 10 screens | 25 screens | 50 screens | 100 screens | 250 screens |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| DigitalSignage.com | $0 | $0 | $72 | $252 | $792 | $1,692 | $3,492 | $8,892 |
+| DigitalSignage.com | $0 | $0 | $180 | $360 | $900 | $1,800 | $3,600 | $9,000 |
 | Yodeck | $96 | $288 | $480 | $960 | $2,400 | $4,800 | $9,600 | $24,000 |
 | OptiSigns | $0 | $0 | $600 | $1,200 | $3,000 | $6,000 | $12,000 | $30,000 |
 | ScreenCloud | $240 | $720 | $1,200 | $2,400 | $6,000 | $12,000 | $24,000 | $60,000 |
@@ -46,7 +46,7 @@ n/v = the vendor did not publish a paid rate at verification time. $0 for Xibo a
 ## How the numbers are computed
 
 - Cost = billable screens x published entry rate per screen per month x 12, using each vendor's lowest published paid tier.
-- Free tiers are applied as the vendor states them: DigitalSignage.com and PiSignage subtract their free screens; OptiSigns' free plan is a separate plan, so paid plans bill every screen; ScreenCloud's trial is not a free tier, and Yodeck's single free screen (Basic features, only while an account has exactly 1 screen) is not deducted because it does not survive a second screen.
+- Free tiers are applied as the vendor states them: PiSignage subtracts its 2 free players; DigitalSignage.com's free plan covers accounts of up to 3 screens and is not deducted once an account pays, so its paid figures bill every screen; OptiSigns' free plan is a separate plan, so paid plans bill every screen; ScreenCloud's trial is not a free tier, and Yodeck's single free screen (Basic features, only while an account has exactly 1 screen) is not deducted because it does not survive a second screen.
 - DigitalSignage.com figures use the $3 list rate; the public price calculator applies volume pricing, so they are an upper bound.
 - Excluded: displays, players, mounting, installation, taxes, negotiated or annual-prepay discounts, and for self-hosted software the server, hosting and admin time.
 - Three-year columns are year one x 3 at constant list prices.
@@ -64,3 +64,7 @@ DigitalSignage.com is one of the vendors in the table and says so on every page 
 ## License
 
 Creative Commons Attribution 4.0 International (CC BY 4.0). Attribution: "Digital Signage Cost per Screen 2026, DigitalSignage.com, https://digitalsignage.com/_html/digital_signage_cost.html".
+
+## Publications that use this dataset
+
+- [Digital Signage Software Pricing 2026: Per-Screen Costs](https://smartworkplaceguide.com/buying-guides/digital-signage-software-pricing-2026-per-screen-costs/), Smart Workplace Guide, October 2026 (links the year-one cost model).
